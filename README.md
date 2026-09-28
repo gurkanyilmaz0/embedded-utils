@@ -1,5 +1,5 @@
 # Embedded Utils — Hardware-Agnostic C Utilities 🔧
-for me untiytle
+
 Reusable, portable embedded C utilities designed to be hardware-independent and unit-testable on a host PC before deployment to any microcontroller (tested against STM32F407, no HAL dependency).
 
 The goal: write and verify core data-structure/algorithm logic on a host machine with fast iteration, then drop the same `.c`/`.h` files directly into firmware — no changes required.
